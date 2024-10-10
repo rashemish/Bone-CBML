@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- maybe had capitalizations later 
+     fix panel descriptions later
+     create bold words later
+     make comments on the styles on bubbles later
+     
+-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>
-                    Dennis the Menace: Volume 58 
+                    Bones: Tall Tales Volume 11
                 </title>        
-                <author>Hank Ketcham</author>  
-                <author role="illustrator">Owen Fitzgerald</author>  
-                <editor>Remington Orange</editor> 
+                <author>Jeff Smith</author>  
+                <author role="illustrator">Jeff Smith</author>  
+                <author role="colorist">Steve Hamaker, Tom Gaadt</author>
                 
             </titleStmt>
             <publicationStmt>
-                <date> 1962-04 </date>
+                <date> 2010-08 </date>
                 <availability status="free">  
                     <p>This work is in the public domain in the United States</p> 
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Scanned and put online by Hallden Fawcett </note>
+                <note>Sold by Scholastic </note>
             </notesStmt>
             <sourceDesc>
-                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
-                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
-                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
-                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                <!-- need to update link for archieve once page is working again -->
+                <p><ref target="https://archive.org/details/comics">Online Archive</ref></p>    
+                <p><ref target="https://github.com/rashemish/Project110/tree/main/docs">Github Repo</ref></p>
+                <p>Tall Tales is a repackaged version of Stupid, Stupid Rat-Tails: 
+                   The Adventures of Big Johnson Bone, Frontier Hero. 
+                   It also includes two new stories by Tom Sniegoski and one new story by Jeff Smith.</p>
+                <!-- needs fixed once archive is running again <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p> -->
                 
                 
             </sourceDesc>
@@ -53,70 +62,72 @@
                     
                     <cbml:panel n="1" > 
                         <cbml:caption type="heading" > 
-                            <emph rendition="#b">N</emph><emph rendition="#color:blue">ICE</emph> <emph rendition="#b">GOING</emph>
+                            <emph rendition="#b">The Map</emph>
                         </cbml:caption>
-                        <note type="panelDesc"> Dennis's father pulls Dennis on a sled going up a hill   
+                        <note type="panelDesc"> Fone Bone and Ted Ted are waling through the forest
                         </note> 
                     </cbml:panel>
                     
-                    <cbml:panel n="2" characters="#father #mailman">
-                        <cbml:balloon type="speech" who="#mailman">  
-                            Express package for you, Mr. Mitchell
+                    <!--    FB = fone bone
+                            TT = ted ted
+                            RC = rat creatures 
+                    -->
+                    <cbml:panel n="2" characters="#FB #TT #RC">
+                        <cbml:balloon type="speech" who="#FB">  
+                            Where can I get something to drink? I’m dyin’ of thirst!
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#father">
-                            Fine! Just in time!                   
+                        <cbml:balloon type="speech" who="#TT">
+                            We can stop by th’ Barrelhaven! They brews th’ best stuff aroun’!                   
                         </cbml:balloon>
-                        <note type="panelDesc"> A mailman is handing Dennis' Father a large cardboard package roughly the height of their legs, they are standing at the front door and and a mailtruck is seen in the street 
+                        <cbml:balloon type="speech" who="#RC">
+                            Eh?                  
+                        </cbml:balloon>
+                        <note type="panelDesc"> character dialogues
                         </note> 
                     </cbml:panel>
                     
-                    <cbml:panel n="3" characters="#father #dennis #mailman">
-                        <cbml:balloon type="speech" who="#dennis">  
-                            What's in it, Dad!
+                    <cbml:panel n="3" characters=" #FB #TT #RC">
+                        <cbml:balloon type="speech" who="#RC"> 
+                            Comrade! We are about to feast! Quick! Get your fast carcass behind this bush and get ready!
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#father">
-                            A house.                  
-                        </cbml:balloon>
-                        <note type="panelDesc"> Dennis looks curiously at the large package, Dennis's father signs for the package and the mailman waits patiently
+                        <note type="panelDesc"> Rat Creature talking to Fone Bone
                         </note> 
                     </cbml:panel>
                     
-                    <cbml:panel n="4" characters="#father #dennis">
-                        <cbml:balloon type="speech" who="#dennis">  
-                            A house? C'mon...you're not <emph rendition="#b">THAT</emph> skinny, Dad!
+                    <cbml:panel n="4" characters="#FB #TT #RC">
+                        <cbml:balloon type="speech" who="#RC">  
+                            Hello, small mammal….could you step in here for a moment? I’ve got something to show you….
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#father">
-                            It <emph rendition="#b">FOLDS OUT</emph> for ice fishing.                  
-                        </cbml:balloon>
-                        <note type="panelDesc"> Dennis and his father walk back inside the house
+                        <note type="panelDesc"> Rat Creature talking to Fone Bone
                         </note> 
                     </cbml:panel>
                     
                     
-                    <cbml:panel n="5" characters="#father #dennis #mother">
-                        <cbml:balloon type="speech" who="#dennis">  
-                            You're gonna go <emph rendition="#b">FISHIN'</emph> for <emph rendition="#b">ICE?!</emph>
+                    <cbml:panel n="5" characters="#FB #TT #RC">
+                        <cbml:balloon type="speech" who="#FB">  
+                            Can’t you show me out here where I’ve got runnin’ space?
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#father">
-                            No, no...you chop a <emph rendition="#b">HOLE</emph> in the ice at the lake, and you fish <emph rendition="#b">THROUGH</emph> it!                  
+                        <cbml:balloon type="speech" who="#RC">
+                            No! No! Please! Step in here— your friend the dragon isn’t around, is he?                 
                         </cbml:balloon>
-                        <note type="panelDesc"> Dennis' father is putting on a pair of boots at the kitchen table, Dennis looks towards him and Dennis' Mother does dishes at the kitchen sink
+                        <note type="panelDesc"> Fone Bone and Rat Creature talking
                         </note> 
                     </cbml:panel>
                     
-                    <cbml:panel n="6" characters="#father #dennis #mother">
-                        <cbml:balloon rendition="#jaggies" type="speech" who="#dennis">  
-                            <emph rendition="#large #color:red">I DO?</emph> <emph rendition="#large #b">O BOY LET'S GO!</emph>
+                    <cbml:panel n="6" characters="#FB #TT #RC1 #RC2">
+                        <cbml:balloon rendition="#jaggies" type="speech" who="#FB">  
+                            Hey, Ted! Where you goin’?
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#father">
-                            <emph rendition="#b">WAIT</emph> a minute! I didn't <emph rendition="#b">MEAN</emph> you! I...                  
+                        <cbml:balloon type="speech" who="#TT">
+                            You’re on yer own Bone!
                         </cbml:balloon>
-                        <cbml:balloon type="speech" who="#mother">
-                            Oh, Henry...                  
+                        <cbml:balloon type="speech" who="#RC1">
+                            Quick, Comrade! Start the cooking fire!
                         </cbml:balloon>
-                        <move who="#father" rendition="#spin"/>
-                        <move who="#dennis" rendition="#fast"/>
-                        <note type="panelDesc"> Dennis is seen running towards the door. Dennis' Father looks shocked and is jumping up from his seat. Dennis' Mother looks back and continues doing dishes at the kitchen sink
+                        <cbml:balloon type="speech" who="#RC2">
+                            No. You called me fat.
+                        </cbml:balloon>
+                        <note type="panelDesc"> Two rat creatures talking with Fone Bone and Ted Ted
                         </note> 
                     </cbml:panel>
                     
