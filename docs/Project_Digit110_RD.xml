@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Dennis the Menace: Volume 58 
+                </title>        
+                <author>Hank Ketcham</author>  
+                <author role="illustrator">Owen Fitzgerald</author>  
+                <editor>Remington Orange</editor> 
+                
+            </titleStmt>
+            <publicationStmt>
+                <date> 1962-04 </date>
+                <availability status="free">  
+                    <p>This work is in the public domain in the United States</p> 
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Scanned and put online by Hallden Fawcett </note>
+            </notesStmt>
+            <sourceDesc>
+                <p><ref target="https://archive.org/details/dennis-the-menace-issue-58">Online Archive</ref></p>    
+                <p><ref target="https://github.com/Remdog712/ComicBook_DIGIT110">Github Repo</ref></p>
+                <p>DENNIS THE MENANCE: a magazine published bi-monthly by Hallden Division of Fawcett Publications, Inc., (Copyright 1962 by the Hall Syndicate, Inc. Printed in the U.S.A., by the Eastern Color Printing Co.)</p>
+                <p>Published online on 2021-10-06 02:47:27 on the Internet Archive</p>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl>
+                <namespace name="http://www.cbml.org/ns/1.0">
+                    <tagUsage gi="cbml:panel"></tagUsage>
+                    <tagUsage gi="cbml:caption"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+    </teiHeader>
+    
+    
+    <text>     
+        <body>
+            
+            <milestone unit="start" n="NICE GOING"/>
+            
+            <div type="page" xml:id="pg_10">   
+                
+                <div type="panelGrp" xml:id="eg_0001">
+                    
+                    
+                    <cbml:panel n="1" > 
+                        <cbml:caption type="heading" > 
+                            <emph rendition="#b">N</emph><emph rendition="#color:blue">ICE</emph> <emph rendition="#b">GOING</emph>
+                        </cbml:caption>
+                        <note type="panelDesc"> Dennis's father pulls Dennis on a sled going up a hill   
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="2" characters="#father #mailman">
+                        <cbml:balloon type="speech" who="#mailman">  
+                            Express package for you, Mr. Mitchell
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#father">
+                            Fine! Just in time!                   
+                        </cbml:balloon>
+                        <note type="panelDesc"> A mailman is handing Dennis' Father a large cardboard package roughly the height of their legs, they are standing at the front door and and a mailtruck is seen in the street 
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="3" characters="#father #dennis #mailman">
+                        <cbml:balloon type="speech" who="#dennis">  
+                            What's in it, Dad!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#father">
+                            A house.                  
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis looks curiously at the large package, Dennis's father signs for the package and the mailman waits patiently
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="4" characters="#father #dennis">
+                        <cbml:balloon type="speech" who="#dennis">  
+                            A house? C'mon...you're not <emph rendition="#b">THAT</emph> skinny, Dad!
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#father">
+                            It <emph rendition="#b">FOLDS OUT</emph> for ice fishing.                  
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis and his father walk back inside the house
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    <cbml:panel n="5" characters="#father #dennis #mother">
+                        <cbml:balloon type="speech" who="#dennis">  
+                            You're gonna go <emph rendition="#b">FISHIN'</emph> for <emph rendition="#b">ICE?!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#father">
+                            No, no...you chop a <emph rendition="#b">HOLE</emph> in the ice at the lake, and you fish <emph rendition="#b">THROUGH</emph> it!                  
+                        </cbml:balloon>
+                        <note type="panelDesc"> Dennis' father is putting on a pair of boots at the kitchen table, Dennis looks towards him and Dennis' Mother does dishes at the kitchen sink
+                        </note> 
+                    </cbml:panel>
+                    
+                    <cbml:panel n="6" characters="#father #dennis #mother">
+                        <cbml:balloon rendition="#jaggies" type="speech" who="#dennis">  
+                            <emph rendition="#large #color:red">I DO?</emph> <emph rendition="#large #b">O BOY LET'S GO!</emph>
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#father">
+                            <emph rendition="#b">WAIT</emph> a minute! I didn't <emph rendition="#b">MEAN</emph> you! I...                  
+                        </cbml:balloon>
+                        <cbml:balloon type="speech" who="#mother">
+                            Oh, Henry...                  
+                        </cbml:balloon>
+                        <move who="#father" rendition="#spin"/>
+                        <move who="#dennis" rendition="#fast"/>
+                        <note type="panelDesc"> Dennis is seen running towards the door. Dennis' Father looks shocked and is jumping up from his seat. Dennis' Mother looks back and continues doing dishes at the kitchen sink
+                        </note> 
+                    </cbml:panel>
+                    
+                    
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
