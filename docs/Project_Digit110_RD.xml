@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="cbml.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- <?xml-model href="cbml.rnc" type="application/relax-ng-compact-syntax"?> -->
 <!-- maybe had capitalizations later 
      fix panel descriptions later
      create bold words later
      make comments on the styles on bubbles later
-     
 -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+    <!-- MetaData: 
+         <title>Out From Boneville </title>
+         <author>Jeff Smith </author>
+         <artist>Jeff Smith </author>
+         <colorArtist>Steve Hamaker </colorArtist>
+         <publisher>Scholastic </publisher>
+         <publicationDate> 1995-05-29 </publicationDate>
+         <issueNumber>1</issueNumber>
+         <genre> Fantasy </genre>
+         <description> The first volume in the acclaimed "Bone" series, this story follows the journey of the three Bone                  cousins; Fone Bone, Phoney Bone, and Smiley Bone, as they are forced to flee their hometown and find themselves lost in          a mysterious valley. As this story blends humour, adventure, and fantasy, this volume sets the stage for an epic tale
+         filled with rich storytelling and capitivating artwork.</description>
+         <language> English</language>
+         <isbn> 0-439-70640-8</isbn>
+         <pageCount>144</pageCount>
+
+         
+    -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
