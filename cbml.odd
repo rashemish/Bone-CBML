@@ -70,7 +70,7 @@
                 <moduleRef key="corpus"/>
 
                 <moduleSpec ident="cbml">
-                    <altIdent>Comic Book Markup Language (CBML)</altIdent>
+                    <desc>Comic Book Markup Language (CBML)</desc>
                     <desc>Additional elements for encoding comic books, comics, <soCalled>graphic
                             novels,</soCalled> and other documents that share formal and structural
                         features with comics.</desc>
@@ -212,6 +212,142 @@
                                             <soCalled>listener.</soCalled></desc>
                                 </valItem>
                             </valList>
+                        </attDef>
+                        <attDef ident="rend" usage="opt" mode="change">
+                            <desc>describes special shapes for the balloon</desc>
+                        </attDef>
+                        <attDef ident="who" usage="req" mode="change">
+                            <desc>Describes who is speaking in the panel</desc>
+                            <datatype>
+                            <rng:ref xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                                name="data.enumerated"/>
+                             </datatype>
+                            <valList type="closed">
+                                <valItem ident="FB">
+                                    <desc>Fone Bone</desc>
+                                </valItem>
+                                <valItem ident="PB">
+                                    <desc>Phoncible P. "Phoney" Bone</desc>
+                                </valItem>
+                                <valItem ident="FB">
+                                    <desc>Fone Bone</desc>
+                                </valItem>
+                                <valItem ident="SB">
+                                    <desc>Smiley Bone</desc>
+                                </valItem>
+                                <valItem ident="TH">
+                                    <desc>Thorn Harvestar</desc>
+                                </valItem>
+                                <valItem ident="RH">
+                                    <desc>Rose "Gran'ma" Ben (born Rose Harvestar)</desc>
+                                </valItem>
+                                <valItem ident="LD">
+                                    <desc>Lucius Down</desc>
+                                </valItem>
+                                <valItem ident="RD">
+                                    <desc>The Great Red Dragon</desc>
+                                </valItem>
+                                <valItem ident="JO">
+                                    <desc>Jonathan Oaks</desc>
+                                </valItem> 
+                                <valItem ident="W">
+                                    <desc>Wendell</desc>
+                                </valItem>
+                                <valItem ident="E">
+                                    <desc>Euclid</desc>
+                                </valItem>
+                                <valItem ident="R">
+                                    <desc>Rory</desc>
+                                </valItem>
+                                <valItem ident="TT">
+                                    <desc>Ted Ted or Ted</desc>
+                                </valItem>
+                                <valItem ident="MP">
+                                    <desc>Miss Possum</desc>
+                                </valItem>
+                                <valItem ident="PK">
+                                    <desc>The Possum Kids</desc>
+                                </valItem>
+                                <valItem ident="MP">
+                                    <desc>Miss Possum</desc>
+                                </valItem>
+                                <valItem ident="BH">
+                                    <desc>The Hooded One (Briar Harvestar)</desc>
+                                </valItem> 
+                                <valItem ident="K">
+                                    <desc>Kingdok</desc>
+                                </valItem>
+                                <valItem ident="RC">
+                                    <desc>Fone Bone's Two Rat Creatures</desc>
+                                </valItem>
+                                <valItem ident="B">
+                                    <desc>Bartleby</desc>
+                                </valItem>
+                                <valItem ident="RJ">
+                                    <desc>Roque Ja (Rock Jaw)</desc>
+                                </valItem>
+                                <valItem ident="RO">
+                                    <desc>Roderick and the Orphans</desc>
+                                </valItem>
+                                <valItem ident="KA">
+                                    <desc>King Agak</desc>
+                                </valItem>
+                                <valItem ident="LL">
+                                    <desc>The Lord of the Locusts</desc>
+                                </valItem>
+                                <valItem ident="M">
+                                    <desc>Mim</desc>
+                                </valItem>
+                                <valItem ident="VY">
+                                    <desc>The Veni Yan ("stick-eaters")</desc>
+                                </valItem>
+                                <valItem ident="H">
+                                    <desc>Headmaster</desc>
+                                </valItem>
+                                <valItem ident="T">
+                                    <desc>Tarsil</desc>
+                                </valItem>
+                                <valItem ident="V">
+                                    <desc>The Vedu</desc>
+                                </valItem>     
+                                
+                                <!--    Characters
+                     Main:
+                            FB = Fone Bone
+                            PB = Phoncible P. "Phoney" Bone
+                            SB = Smiley Bone
+                     Valley: 
+                            TH = Thorn Harvestar
+                            RH = Rose "Gran'ma" Ben (born Rose Harvestar)
+                            LD = Lucius Down
+                            RD = The Great Red Dragon
+                            JO = Jonathan Oaks
+                            W = Wendell
+                            E = Euclid
+                            R = Rory
+                            TT = Ted Ted or Ted
+                            MP = Miss Possum
+                            PK = The Possum Kids
+                     Main antagonists:
+                            BH = The Hooded One (Briar Harvestar)
+                            K = Kingdok
+                            RC = Fone Bone's Two Rat Creatures
+                     Other: 
+                            B = Bartleby
+                            RJ = Roque Ja (Rock Jaw)
+                            RO = Roderick and the Orphans
+                            KA = King Agak
+                            LL = The Lord of the Locusts
+                            M = Mim
+                            VY = The Veni Yan ("stick-eaters")
+                            H = Headmaster
+                            T = Tarsil
+                            V = The Vedu
+                    -->
+                                
+                            </valList>
+                            
+                 
                         </attDef>
                     </attList>
                     <exemplum>
@@ -432,6 +568,12 @@
                     comment out this line if you have use for the TEI 
                     caption element in your CBML documents. -->
                 <elementSpec ident="caption" module="drama" mode="delete"/>
+                
+               
+                
+                
+                
+                
             </schemaSpec>
         </body>
     </text>
