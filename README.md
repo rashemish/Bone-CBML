@@ -6,13 +6,13 @@ This is Dannika and Rashe's DIGIT 110 Final Project...
 
 Repository Navigation:
 
-**docs: **
+**docs:**
 
 - images: visuals for project website
 - bonehtml: HTML for the project website
 - bonecss: CSS for the project website
 
-**out: **
+**out:**
 
 - bone-cbml.rng: Relax NG Schema for XML
 
