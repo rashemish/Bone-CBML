@@ -1326,14 +1326,14 @@
                 
                 <!-- page 25 -->
                 <div type="page" n="25">
-                   <cbml:panel n="2" characters="#FB">
+                   <cbml:panel n="1" characters="#FB">
                         <note type="panelDesc"> fonebone gathers stones and supplies to build shelter </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 26 -->
-                <div type="page" n="25">
-                    <cbml:panel n="2" characters="#FB">
+                <div type="page" n="26">
+                    <cbml:panel n="1" characters="#FB">
                         <note type="panelDesc"> fonebone has a fire and has a picnic some creatures </note>
                     </cbml:panel>
                 </div>

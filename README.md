@@ -23,3 +23,10 @@ Repository Navigation:
 **bone.xsl:** XSL for XML
 
 Check out the comic book we are encoding: https://archive.org/details/bone-volume-1-out-from-boneville/page/n5/mode/1up
+
+**Bone Breakdown:**
+
+- Characters -- Fonebone is the most seen and heard character throughout the comic book.
+- Places -- They start out in desert, then make their way to the mountains then to the cliffs, after the cliffs the forest is where they are seen next but soon following winter hits.
+- Interests -- Fonebone gets seperated from his cousins so he tries to find then but gets on a side mission to meet Thorn.
+- Bubbles/Shouting -- The word bubbles tend to change with the emotion of the character or the context of whats happening such as yelling or whispering or scared
