@@ -28,13 +28,13 @@ img {
 .container {
     text-align: center;
     display: flex;
-    justify-content: space-evenly; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Full viewport height, adjust as needed */
+    justify-content: space-evenly; 
+    align-items: center; 
+    height: 100vh; 
 }
 
 .container img {
-    max-width: 100%; /* Ensures the image fits within the container */
+    max-width: 100%;
     height: auto;
 }
 
@@ -72,17 +72,17 @@ nav ul li a {
 
 .navbar {
     display: flex;
-    justify-content: center; /* Centers the nav items horizontally */
-    background-color: #333; /* Optional: Navbar background color */
-    padding: 1rem; /* Optional: Adds spacing inside the navbar */
+    justify-content: center; 
+    background-color: #333; 
+    padding: 1rem; 
 }
 
 .navbar a {
-    color: #ffffff; /* Text color */
-    padding: 0.5rem 1rem; /* Space around each link */
-    text-decoration: none; /* Remove underline */
+    color: #ffffff; 
+    padding: 0.5rem 1rem; 
+    text-decoration: none; 
 }
 
 .navbar a:hover {
-    background-color: #555; /* Optional: Hover effect */
+    background-color: #555; 
 }
