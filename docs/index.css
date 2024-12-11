@@ -1,5 +1,32 @@
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    margin-right: 15px;
+}
+
 .container {
-    text-align:center;
+    text-align: center;
     display: flex;
     justify-content: space-evenly; /* Center horizontally */
     align-items: center; /* Center vertically */
@@ -9,6 +36,38 @@
 .container img {
     max-width: 100%; /* Ensures the image fits within the container */
     height: auto;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 2vw;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.7em 1.5em;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 .navbar {
