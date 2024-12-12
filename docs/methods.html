@@ -7,14 +7,53 @@
         <link rel="stylesheet" href="team.css" />
     </head>
     <body>
-        <!-- Navigation Bar -->
-        <nav>
-            <ul>
-                <li><a href="index.html">About Bones</a></li>
-                <li><a href="team.html">About The Team</a></li>
-                <li><a href="characters.html">About The Characters</a></li>
-                <li><a href="methods.html">Methods</a></li>
-            </ul>
-        </nav>
+        <!-- Navigation Bar -->       
+        <div class="navbar">
+             <a href="home.html">Home</a>
+             <a href="about.html">About Bone</a>
+             <a href="character.html">Characters</a>
+             <a href="bonecbml.html">Bone CBML </a>
+             <a href="methods.html">Methods</a>
+             <a href="team.html">The Team</a>
+        </div>       
+        <div class="scrollable-textbox" >
+            <h1>Our Comic Book Markup Language (CBML)</h1>
+            <p>The early stages of this project consisted of developing our Comic Book Markup Language. This phase was the core of our project as it was the foundation for further text analysis, or should we say "comic" analysis! Each panel on a page was wrapped in a &lt;cbml:panel element that contained speech bubbles (&lt;/cbml:balloon) and panel descriptions (&lt;note). On occasion, the speech bubble would be drawn differently to indicate "tone", in these instances we used the rend=&quot; attribute so the speech bubble from the comic book was truly modeled within the CBML. Comic Books are almost entirely visualize, so a panel description with the &lt;note element was included for each panel. Addtionally, we used &lt;hi elements to analyze the text within the speech bubbles for further specification; attributes such as rend=&quot;bold and ana=&quot;ono were inserted to indicate emphazie on words, onomatopoeia, etc. Upon analyzing "Bone", the team merged our unique insights of "BONE" to effectively analyze the comic book.</p>
+            <pre>
+                &lt;cbml:panel n=&quot;4&quot; characters=&quot;#SB #PB&quot;&gt;
+                    &lt;cbml:balloon type=&quot;speech&quot; who=&quot;#SB&quot;&gt; &hellip;Oh, well&hellip; I guess you can whine
+                        all you &lt;hi rend=&quot;bold&quot;&gt;want&lt;/hi&gt;, when yer th&rsquo; &lt;hi rend=&quot;bold&quot;&gt;richest&lt;/hi&gt; 
+                        guy in th&rsquo; whole town. 
+                    &lt;/cbml:balloon&gt;
+                    &lt;cbml:balloon type=&quot;speech&quot; who=&quot;#SB&quot;&gt; Oops! Silly me. &lt;hi rend=&quot;bold&quot;&gt;Ex&lt;/hi&gt;
+                        -richest! 
+                    &lt;/cbml:balloon&gt;
+                    &lt;cbml:balloon type=&quot;speech&quot; who=&quot;#PB&quot; rend=&quot;sqBubble&quot;&gt;
+                        &lt;hi rend=&quot;bold&quot; ana=&quot;ono&quot;&gt;AAAH!&lt;/hi&gt;
+                    &lt;/cbml:balloon&gt;
+                    &lt;note type=&quot;panelDesc&quot;&gt; smiley talking &lt;/note&gt;
+                 &lt;/cbml:panel&gt;
+            </pre>
+        </div>         
+        <div class="scrollable-textbox">
+            <h2>Our Modal Extensible Stylesheet Language Transformation</h2>
+            <p> To bring our XML to life, we created a modal XSLT that would productively "translate" our XML to HTML to showcase the our comic book analysis. Keeping a user's experience in mind, our table contains the number of pages from Chapter 1 of "Bone", the descriptions for each page, the number of panels on each page. Here's a snippet of how we pulled the number of panels from each page to input in our table: </p>
+            <pre>
+                &lt;xsl:template match=&quot;div[@type='page']&quot; mode=&quot;toc&quot;&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;
+                            &lt;a href=&quot;#page-{position()}&quot;&gt;Page &lt;xsl:value-of select=&quot;@n&quot; /&gt;
+                            &lt;/a&gt;
+                        &lt;/td&gt;
+                        &lt;td&gt;
+                            &lt;xsl:value-of select=&quot;string-join(distinct-values(cbml:panel/@id), ', ')&quot; /&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/xsl:template&gt;
+            </pre>
+        </div>
+        <div class="footer">
+            <!--&copy;--> 2024 Bone CBML. All rights reserved.          
+        </div>
     </body>
 </html>
