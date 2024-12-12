@@ -2,12 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>Methods</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="team.css" />
+        <title>Methods</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://use.typekit.net/omu7eji.css"/>
     </head>
     <body>
-        <!-- Navigation Bar -->       
         <div class="navbar">
              <a href="home.html">Home</a>
              <a href="about.html">About Bone</a>
@@ -16,10 +16,12 @@
              <a href="methods.html">Methods</a>
              <a href="team.html">The Team</a>
         </div>       
-        <div class="scrollable-textbox" >
+        
             <h1>Our Comic Book Markup Language (CBML)</h1>
-            <p>The early stages of this project consisted of developing our Comic Book Markup Language. This phase was the core of our project as it was the foundation for further text analysis, or should we say "comic" analysis! Each panel on a page was wrapped in a &lt;cbml:panel element that contained speech bubbles (&lt;/cbml:balloon) and panel descriptions (&lt;note). On occasion, the speech bubble would be drawn differently to indicate "tone", in these instances we used the rend=&quot; attribute so the speech bubble from the comic book was truly modeled within the CBML. Comic Books are almost entirely visualize, so a panel description with the &lt;note element was included for each panel. Addtionally, we used &lt;hi elements to analyze the text within the speech bubbles for further specification; attributes such as rend=&quot;bold and ana=&quot;ono were inserted to indicate emphazie on words, onomatopoeia, etc. Upon analyzing "Bone", the team merged our unique insights of "BONE" to effectively analyze the comic book.</p>
-            <pre>
+            <p>The early stages of this project consisted of developing our Comic Book Markup Language. This phase was the core of our project as it was the foundation for further text analysis, or should we say "comic" analysis! Each panel on a page was wrapped in a &lt;cbml:panel&gt; element that contains speech bubbles &lt;cbml:balloon&gt; and panel descriptions &lt;note&gt;. On occasion, the speech bubble would be drawn differently to indicate "tone", in these instances we used the &lt;rend&gt; attribute so the speech bubble from the comic book was truly modeled within the CBML. Comic Books are almost entirely visual, so a panel description with the &lt;note&gt; element along with the attribute value &lt;type="panelDesc"&gt;was included for each panel. Addtionally, we used &lt;hi&gt; elements to analyze the text within the speech bubbles for further specification; attribute values such as &lt;rend="bold"&gt; and &lt;ana="ono"&gt; were inserted in each element to indicate emphasis on words, onomatopoeia, etc. Upon analyzing "Bone", the team merged our unique insights to effectively analyze the comic book.</p>
+          
+        <div class="container">
+            <pre class="textbox">
                 &lt;cbml:panel n=&quot;4&quot; characters=&quot;#SB #PB&quot;&gt;
                     &lt;cbml:balloon type=&quot;speech&quot; who=&quot;#SB&quot;&gt; &hellip;Oh, well&hellip; I guess you can whine
                         all you &lt;hi rend=&quot;bold&quot;&gt;want&lt;/hi&gt;, when yer th&rsquo; &lt;hi rend=&quot;bold&quot;&gt;richest&lt;/hi&gt; 
@@ -34,15 +36,16 @@
                     &lt;note type=&quot;panelDesc&quot;&gt; smiley talking &lt;/note&gt;
                  &lt;/cbml:panel&gt;
             </pre>
-        </div>         
-        <div class="scrollable-textbox">
-            <h2>Our Modal Extensible Stylesheet Language Transformation</h2>
-            <p> To bring our XML to life, we created a modal XSLT that would productively "translate" our XML to HTML to showcase the our comic book analysis. Keeping a user's experience in mind, our table contains the number of pages from Chapter 1 of "Bone", the descriptions for each page, the number of panels on each page. Here's a snippet of how we pulled the number of panels from each page to input in our table: </p>
-            <pre>
+        </div>
+        
+            <h1>Our Modal Extensible Stylesheet Language Transformation</h1>
+            <p> To bring our XML to life, we created a modal XSLT that would productively "translate" our XML to HTML to showcase our comic book analysis. Keeping a user's experience in mind, our table contains the number of pages from Chapter 1 of "Bone", the descriptions for each page, the number of panels on each page. Here's a snippet of how we pulled the number of panels from each page to input in our table: </p>
+        <div class="container">  
+            <pre class="textbox">
                 &lt;xsl:template match=&quot;div[@type='page']&quot; mode=&quot;toc&quot;&gt;
                     &lt;tr&gt;
                         &lt;td&gt;
-                            &lt;a href=&quot;#page-{position()}&quot;&gt;Page &lt;xsl:value-of select=&quot;@n&quot; /&gt;
+                            &lt;a href=&quot;#page-{position()}&quot;&gt;Page &lt;xsl:value-of select=&quot;@n&quot;/&gt;
                             &lt;/a&gt;
                         &lt;/td&gt;
                         &lt;td&gt;
