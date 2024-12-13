@@ -1,7 +1,7 @@
 body {
 font-family: "chantal", sans-serif;
 font-weight: 600;
-font-style: normal;           
+font-style: normal;
 margin: 0;
 padding: 0;
 display: flex;
@@ -39,6 +39,35 @@ height: 50px;
 
 .logo-link {
 margin-top: 2px;
+}
+
+.container.one {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.left-image{
+width: 480px;
+height: 700px;
+padding: 50px;
+}
+
+.text-container h3{
+font-family: zuume, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 70px;
+margin: 0;
+color: black;
+}
+
+.text-container h2 {
+font-family: josefin-sans, sans-serif;
+font-weight: 700;
+font-style: italic;
+color: #227C9D;
+width: 200px;
 }
 
 .image-container {
