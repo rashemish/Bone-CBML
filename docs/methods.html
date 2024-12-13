@@ -9,14 +9,18 @@
     </head>
     <body>
         <div class="navbar">
-             <a href="index.html">Home</a>
-             <a href="about.html">About Bone</a>
-             <a href="character.html">Characters</a>
-             <a href="bonecbml.html">Bone CBML </a>
-             <a href="methods.html">Methods</a>
-             <a href="team.html">The Team</a>
-        </div>       
-        
+            <div class="logo-link">
+                <a href="index.html">
+                    <img src="images/bonelogo.png" alt="Logo" class="navbar-logo"/>
+                </a>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Bone</a>
+            <a href="characters.html">Characters</a>
+            <a href="bonecbml.html">Bone CBML </a>
+            <a href="methods.html">Methods</a>
+            <a href="team.html">The Team</a>
+        </div>
             <h1>Our Comic Book Markup Language (CBML)</h1>
             <p>The early stages of this project consisted of developing our Comic Book Markup Language. This phase was the core of our project as it was the foundation for further text analysis, or should we say "comic" analysis! Each panel on a page was wrapped in a &lt;cbml:panel&gt; element that contains speech bubbles &lt;cbml:balloon&gt; and panel descriptions &lt;note&gt;. On occasion, the speech bubble would be drawn differently to indicate "tone", in these instances we used the &lt;rend&gt; attribute so the speech bubble from the comic book was truly modeled within the CBML. Comic Books are almost entirely visual, so a panel description with the &lt;note&gt; element along with the attribute value &lt;type="panelDesc"&gt;was included for each panel. Addtionally, we used &lt;hi&gt; elements to analyze the text within the speech bubbles for further specification; attribute values such as &lt;rend="bold"&gt; and &lt;ana="ono"&gt; were inserted in each element to indicate emphasis on words, onomatopoeia, etc. Upon analyzing "Bone", the team merged our unique insights to effectively analyze the comic book.</p>
           

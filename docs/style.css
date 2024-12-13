@@ -8,8 +8,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-min-height: 90vh;
-background-color: #01110A;
+min-height: 40vh;
+background-color: #FFCB77;
 }
 
 .navbar {
@@ -17,11 +17,11 @@ display: flex;
 justify-content: space-evenly;
 background-color: transparent;
 width: 100%;
-padding: 40px 0;
+padding: 30px 0;
 }
 
 .navbar a {
-color: #E8E8E8;
+color: #0A0908;
 text-decoration: none;
 font-size: 20px;
 padding: 8px 10px;
@@ -29,7 +29,7 @@ padding: 8px 10px;
 
 .navbar a:hover {
 background-color: transparent;
-color: red;
+color: #EA1F00;
 }
 
 .navbar-logo {
@@ -46,7 +46,7 @@ display: flex;
 flex-wrap: wrap;
 text-align: center; 
 width: 500px;
-height: 200px;
+height: 100px;
 }
 
 .image-container img {
@@ -67,8 +67,15 @@ color: #E8E8E8;
 display: flex;
 justify-content: center;
 align-items: center;
-min-height: 100vh;
+min-height: 30vh;
 padding: 0px;
+}
+
+.container.two {
+display: flex;
+margin: 0 auto;
+max-width: 1200px;
+padding: 20px;
 }
         
 .textbox {
@@ -96,7 +103,7 @@ h1 {
 font-family: josefin-sans, sans-serif;
 font-weight: 700;
 text-align: center;
-color: #F1C40F;
+color: #227C9D;
 padding-top: 5px;
 padding-right: 5px;
 padding-bottom: 5px;
@@ -107,17 +114,28 @@ p {
 font-family: josefin-sans, sans-serif;
 font-weight: 600;
 text-align: center;
-color: #E8E8E8;
+color: #0A0908;
 padding-top: 10px;
 padding-right: 50px;
 padding-bottom: 10px;
 padding-left: 50px;
 }
 
-.image-row {
+.image-row.one {
 display: flex;
-flex-wrap: wrap; 
-gap: 20px; 
+flex-wrap: wrap;
+flex-direction: row;
+gap: 50px; 
+max-width: 100%; 
+justify-content: center;
+}
+
+.image-row.two {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+gap: 200px; 
 max-width: 100%; 
 justify-content: center;
 }
@@ -135,11 +153,16 @@ border-radius: 5px;
 }
 
 .caption {
+margin-top: 10px;/* Space between heading and caption */
+align-items: center;
+width: calc(100% + 100px);
+padding: 0px;
 font-family: josefin-sans, sans-serif;
 font-weight: 600;
-margin-top: 10px;
+padding-top: 10px;
 font-size: 14px;
-color: #E8E8E8;
+color: #0A0908;
+width: 100%;
 }
 
 .wrapper {
@@ -153,5 +176,4 @@ text-align: center;
 font-size: 10pt;
 margin-top: 20px;
 margin-bottom: 5px;
-color: #E8E8E8;
 }
