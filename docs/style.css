@@ -33,7 +33,9 @@ color: red;
 }
 
 .image-container {
-text-align: center;
+text-align: center; 
+width: 300px;
+height: 200px;
 }
 
 .image-container img {
@@ -42,6 +44,9 @@ height: 860px;
 }
 
 .image-container p {
+font-family: "chantal", sans-serif;
+font-weight: 600;
+font-style: normal;
 font-size: 20pt;
 margin-top: 15px;
 color: #E8E8E8;
@@ -54,7 +59,7 @@ justify-content: center;
         
 .textbox {
 border-radius: 20px;
-width: 800px;
+width: 700px;
 height: 205px;
 border: transparent;
 background-color: #E8E8E8;
@@ -66,7 +71,6 @@ padding-left: 10px;
 }
 
 pre {
-white-space: pre-wrap;
 font-family: monospace;
 padding-top: 10px;
 padding-right: 10px;
@@ -78,7 +82,7 @@ h1 {
 font-family: josefin-sans, sans-serif;
 font-weight: 700;
 text-align: center;
-color: #E8E8E8;
+color: #F1C40F;
 padding-top: 5px;
 padding-right: 5px;
 padding-bottom: 5px;
@@ -96,10 +100,31 @@ padding-bottom: 10px;
 padding-left: 50px;
 }
 
+.image-row {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 25px; /* Space between images */
+padding: 20px 0;
+}
+
+.image-container img {
+width: 100%; /* Makes the image fit within its container */
+height: auto; /* Maintains aspect ratio */
+border-radius: 5px; /* Optional: rounded corners */
+}
+
+.image-container .caption {
+font-family: josefin-sans, sans-serif;
+font-weight: 600;
+margin-top: 10px;
+font-size: 14px;
+color: #E8E8E8;
+}
 
 .footer {
 text-align: center;
 font-size: 10pt;
-margin-bottom: 20px;
+margin-top: 30px;
 color: #E8E8E8;
 }
