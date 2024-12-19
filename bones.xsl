@@ -13,10 +13,69 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" 
         include-content-type="no" indent="yes"/>
     
+    <link rel="stylesheet" href="https://use.typekit.net/omu7eji.css"/>
     <xsl:template match="/">
+        <html>
+            <head>
+                <title>BONE CBML</title>
+            </head>
+            <body>
+                
+                <div class="toc-box">
+                    <h2>Table of Contents</h2>
+                    <table>
+                        <tr>
+                            <th>Page Number</th>
+                            <th>Page Description</th>
+                            <th>Panel Count</th>
+                        </tr>
+                        <xsl:for-each select="//div[@type='page']">
+                            <tr>
+                                <td>
+                                    <a href="#page-{@n}"><xsl:value-of select="@n"/></a>
+                                </td>
+                                <td><xsl:value-of select="note[@type='pageDesc']"/></td>
+                                <td><xsl:value-of select="count(cbml:panel)"/></td>
+                            </tr>
+                        </xsl:for-each>
+                    </table>
+                </div>
+                
+                <!-- Reading View -->
+                <xsl:for-each select="//div[@type='page']">
+                    <div class="reading-view" id="page-{@n}">
+                        <!-- Placeholder for page image -->
+                        <div class="page-image">
+                            <img src="placeholder.png" alt="Page {@n}" style="width:100%; border:1px solid #ccc;"/>
+                        </div>
+                        
+                        <!-- Panel Content -->
+                        <div class="panel-box">
+                            <h3>Page <xsl:value-of select="@n"/></h3>
+                            <xsl:for-each select="cbml:panel">
+                                <div class="panel">
+                                    <h4>Panel <xsl:value-of select="@n"/></h4>
+                                    <xsl:apply-templates select="*"/>
+                                </div>
+                            </xsl:for-each>
+                        </div>
+                    </div>
+                </xsl:for-each>
+                
+            </body>
+        </html>
+    </xsl:template>
+    
+    <!-- Template to handle panel elements -->
+    <xsl:template match="cbml:panel/*">
+        <p><xsl:value-of select="."/></p>
+    </xsl:template>
+    
+
+   <!-- <xsl:template match="/">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
-                <title> Bone:Table of Contents</title>
+                <title>Bone:Table of Contents</title>
             </head>
             <body>
                 <h1>
@@ -61,7 +120,7 @@
         <section>
             <div id="page-{position()}" class="page-left">
                 <h2>Page <xsl:value-of select="@n" /></h2>
-                <!--<img src="{@n}.jpg" alt="Page <xsl:value-of select='@n' />-->
+                <!-\-<img src="{@n}.jpg" alt="Page <xsl:value-of select='@n' />-\->
             </div>
             <div class="page-right">
                 <h3>Page <xsl:value-of select="@n" /></h3>
@@ -85,5 +144,5 @@
     
     <xsl:template match="note">
         <xsl:value-of select="." />
-    </xsl:template>
+    </xsl:template>-->
 </xsl:stylesheet>

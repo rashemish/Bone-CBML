@@ -114,13 +114,14 @@
 
                     <!-- page 1 -->
                     <div type="page" n="1">
+                        <note type="pageDesc">Fone Bone, Smiley Bone, and Phoney Bone are stranded in the middle of the desert deciding what to do after they’ve been driven out of Bonneville</note>
                         <!-- facs="" -->
                         <!-- 2024-11-13 ebb: What's the image filename?  -->
                         <cbml:panel n="1">
                             <cbml:caption type="heading">
-                                <emph rendition="#b">Chapter one The Map</emph>
+                                <emph rendition="#b">Chapter One            The Map</emph>
                                 <figure ana="FBLogo">
-                                    <desc>bone logo in top left corner</desc>
+                                    <desc>BONE logo in top left corner</desc>
                                 </figure>
                             </cbml:caption>
                         </cbml:panel>
@@ -131,7 +132,7 @@
                                 <hi rend="bold">HEY!</hi> Ya hear <hi rend="bold">that</hi> Phoney?
                                 Th’ coast is <hi rend="bold">clear!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> all three talking </note>
+                            <note type="panelDesc"> All three Bone cousins are talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="3" characters="#SB">
@@ -139,7 +140,7 @@
                                 <hi rend="bold">Look</hi> at him! We got chased outta <hi
                                     rend="bold">Boneville</hi> over <hi rend="bold">two weeks</hi>
                                 ago, an’ he’s <hi rend="bold">still</hi> mopin’ around! </cbml:balloon>
-                            <note type="panelDesc"> smiley talking </note>
+                            <note type="panelDesc"> Smiley talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="4" characters="#SB #PB">
@@ -151,15 +152,16 @@
                             <cbml:balloon type="speech" who="#PB" rend="sqBubble">
                                 <hi rend="bold" ana="ono">AAAH!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> smiley talking </note>
+                            <note type="panelDesc"> Smiley talking </note>
                         </cbml:panel>
 
                     </div>
                     <!-- page 2 -->
                     <div type="page" n="2">
+                        <note type="pageDesc">Phoney Bone is exasperated about being run out of Boneville, he’s yelling at his cousins</note>
                         <cbml:panel n="1">
                             <cbml:caption type="heading">
-                                <emph rendition="#b">Out from Boneville</emph>
+                                <emph rendition="#b">Out From Boneville</emph>
                             </cbml:caption>
                         </cbml:panel>
 
@@ -170,7 +172,7 @@
                                 to a <hi rend="bold">rich</hi> person that he doesn’t <hi
                                     rend="bold">want!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> phoney and fone bone talking </note>
+                            <note type="panelDesc"> Phoney and Fone bone talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="3" characters="#PB">
@@ -178,14 +180,14 @@
                                 <hi rend="bold">GASP! OH! Th’ horrible injustice of it all! I’m
                                     still reeling with shock!!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> phoney talking </note>
+                            <note type="panelDesc"> Phoney talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="4" characters="#PB">
                             <cbml:balloon type="speech" who="#PB"> I’m a respected community <hi
                                     rend="bold">leader! A shining pillar of moral strength!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> phoney talking </note>
+                            <note type="panelDesc"> Phoney talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="5" characters="#PB">
@@ -194,7 +196,7 @@
                                     >that</hi> any reason to run th’ most <hi rend="bold">beloved
                                     bone</hi> in Boneville out on a <hi rend="bold">rail?!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> phoney talking </note>
+                            <note type="panelDesc"> Phoney talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="6" characters="#FB #SB">
@@ -203,7 +205,7 @@
                                 <hi rend="bold">Beloved?</hi> Th’ mayor declared a school <hi
                                     rend="bold">holiday</hi> just so th’ kids could come and throw
                                     <hi rend="bold">rocks</hi> at you! </cbml:balloon>
-                            <note type="panelDesc"> fone bone and smiley talking </note>
+                            <note type="panelDesc"> Fone Bone and Smiley talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="7" characters="#PB">
@@ -212,7 +214,7 @@
                                     >PHONCIBLE P. BONE</hi> outta their crumb ol’ town! <hi
                                     ana="ono" rend="action">*sniff!*</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> phoney talking </note>
+                            <note type="panelDesc"> Phoney talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="8" characters="#SB">
@@ -220,12 +222,13 @@
                                 be <hi rend="bold">sad!</hi> It’s a beautiful day! There’s not a <hi
                                     rend="bold">cloud in th’ sky!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> smiley talking </note>
+                            <note type="panelDesc"> Smiley talking </note>
                         </cbml:panel>
 
                     </div>
                     <!-- page 3 -->
                     <div type="page" n="3">
+                        <note type="pageDesc"> Fone Bone is looking at a map he found, it’s hand drawn and poorly made. He’s trying to navigate the three Bone cousins.</note>
                         <cbml:panel n="1">
                             <cbml:caption type="heading">
                                 <emph rendition="#b">The Map</emph>
@@ -239,7 +242,7 @@
                             </cbml:balloon>
                             <cbml:balloon type="speech" who="#SB" rend="whispBubble"> Hey, I’m just
                                 tryin’ to cheer him up, okay? </cbml:balloon>
-                            <note type="panelDesc"> fone bone and smiley talking </note>
+                            <note type="panelDesc"> Fone Bone and Smiley talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="3" characters="#SB">
@@ -249,7 +252,7 @@
                             <cbml:balloon type="speech" who="#SB"> Take <hi rend="bold">me</hi> for
                                 example! I never had a penny in my <hi rend="bold">life!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> smiley talking </note>
+                            <note type="panelDesc"> Smiley talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="4" characters="#SB #PB">
@@ -260,7 +263,7 @@
                             <cbml:balloon type="speech" who="#PB"> A Bird? <hi rend="bold"/> More
                                 like a mangy, stray <hi rend="bold">dog</hi> who doesn’t <hi
                                     rend="bold">eat</hi> very often! </cbml:balloon>
-                            <note type="panelDesc"> smiley and phoney talking </note>
+                            <note type="panelDesc"> Smiley and Phoney talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="5" characters="#SB #PB">
@@ -269,7 +272,7 @@
                             <cbml:balloon type="speech" who="#PB">
                                 <hi rend="bold">HEY! FONE BONE!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> smiley and phoney talking </note>
+                            <note type="panelDesc"> Smiley and Phoney talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="6" characters="#FB #PB">
@@ -277,19 +280,20 @@
                             <cbml:balloon type="speech" who="#PB"> Have you figured out where we <hi
                                     rend="bold">are</hi>, yet? What’s <hi rend="bold">takin’</hi> so
                                 long? </cbml:balloon>
-                            <note type="panelDesc"> phoney and fone bone talking </note>
+                            <note type="panelDesc"> Phoney and Fone Bone talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="7" characters="#FB">
                             <cbml:balloon type="speech" who="#FB"> I’m working on it. Hmmmm….<hi
                                     rend="bold">That’s</hi> strange…that mountain range isn’t on any
                                 of my <hi rend="bold">charts</hi>— </cbml:balloon>
-                            <note type="panelDesc"> fone bone talking </note>
+                            <note type="panelDesc"> Fone Bone talking </note>
                         </cbml:panel>
 
                     </div>
                     <!-- page 4 -->
                     <div type="page" n="4">
+                        <note type="pageDesc">Phoney Bone and Fone Bone are arguing that the map is not helpful.</note>
                         <cbml:panel n="1">
                             <cbml:caption type="heading">
                                 <emph rendition="#b">Out From Boneville</emph>
@@ -299,14 +303,14 @@
                         <cbml:panel n="2" characters="#FB #PB">
                             <cbml:balloon type="speech" who="#FB"> Hey - - ! </cbml:balloon>
                             <cbml:balloon type="speech" who="#PB"> Lemme see that! </cbml:balloon>
-                            <note type="panelDesc"> fone and phoney trying to look at the map
+                            <note type="panelDesc"> Fone and Phoney trying to look at the map
                             </note>
                         </cbml:panel>
 
                         <cbml:panel n="3" characters="#PB">
                             <cbml:balloon type="speech" who="#PB"> Here's your problem Fone Bone!
                                 We're off the <hi rend="bold">map!</hi> Get a bigger Map! </cbml:balloon>
-                            <note type="panelDesc"> phoney talking </note>
+                            <note type="panelDesc"> Phoney talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="4" characters="#PB #FB">
@@ -323,7 +327,7 @@
                                 <hi rend="bold">To boldly go where no bone has gone before!</hi>
                             </cbml:balloon>
                             <cbml:balloon type="speech" who="#PB"> Stick a sock in it, cabbage head! </cbml:balloon>
-                            <note type="panelDesc"> all three talking about being lost </note>
+                            <note type="panelDesc"> All three Bone cousins talking about being lost </note>
                         </cbml:panel>
 
                         <cbml:panel n="6" characters="#PB">
@@ -331,7 +335,7 @@
                                 I'm grateful you were able to et me outta town -- but tell me ...
                                     <hi rend="bold">why</hi> did you hafta go an' bring <hi
                                     rend="bold">him</hi> with us? </cbml:balloon>
-                            <note type="panelDesc"> phoney is talking </note>
+                            <note type="panelDesc"> Phoney is talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="7" characters="#PB #FB #SM">
@@ -341,12 +345,13 @@
                             </cbml:balloon>
                             <cbml:balloon type="speech" who="#PB"> Hey, Phoney! Bad news ... we're
                                 out of water! </cbml:balloon>
-                            <note type="panelDesc"> smilely drinks all the water </note>
+                            <note type="panelDesc"> Smilely drinks all the water </note>
                         </cbml:panel>
 
                     </div>
                     <!-- page 5 -->
                     <div type="page" n="5">
+                        <note type="pageDesc">Smiley Bone finds a map of the mountain range they are close to.</note>
                         <cbml:panel n="1">
                             <cbml:caption type="heading">
                                 <emph rendition="#b">The Map</emph>
@@ -363,7 +368,7 @@
                                 aren't mad at <hi rend="bold">us!</hi> They ran you outta town
                                 'cause you're a selfish, little <hi rend="bold">greedbag!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> smilely drinks all the water and phoney triesd
+                            <note type="panelDesc"> Smilely drinks all the water and Phoney tries
                                 to attack him </note>
                         </cbml:panel>
 
@@ -375,7 +380,7 @@
                             </cbml:balloon>
                             <cbml:balloon type="speech" who="#FB"> Oh, you're not gonna die! I just
                                 hope you learned your lesson! </cbml:balloon>
-                            <note type="panelDesc"> phoney thinking he is gonne die and be broke
+                            <note type="panelDesc"> Phoney thinking he is gonne die and be broke
                             </note>
                         </cbml:panel>
 
@@ -387,14 +392,14 @@
                             <cbml:balloon type="speech" who="#SB"> Hey, cousins , look what I found!
                                 I think it's a map! </cbml:balloon>
                             <cbml:balloon type="speech" who="#FB"> ?! </cbml:balloon>
-                            <note type="panelDesc"> phoney complaining about needing water </note>
+                            <note type="panelDesc"> Phoney complaining about needing water </note>
                         </cbml:panel>
                         <cbml:panel n="5" characters="#PB #SB">
                             <cbml:balloon type="speech" who="#SB"> Sure enough! Look! It's a map of
                                 that mountain range! </cbml:balloon>
                             <cbml:balloon type="speech" who="#PB"> I'm <hi rend="bold">saved!</hi>
                                 Give it to me! </cbml:balloon>
-                            <note type="panelDesc"> smiley "finding" a map and phoney thinking he is
+                            <note type="panelDesc"> Smiley "finding" a map and phoney thinking he is
                                 saved</note>
                         </cbml:panel>
 
@@ -402,7 +407,7 @@
                             <cbml:balloon type="speech" who="#SB"> Gimme a dollar first. </cbml:balloon>
                             <cbml:balloon type="speech" who="#PB"> What? </cbml:balloon>
                             <cbml:balloon type="speech" who="#FB"> Go on, Phoney give him a dollar! </cbml:balloon>
-                            <note type="panelDesc"> arging over phoney giving smilely a dollar
+                            <note type="panelDesc"> Arguing over Phoney giving Smiley a dollar
                             </note>
                         </cbml:panel>
 
@@ -412,13 +417,14 @@
                             </cbml:balloon>
                             <cbml:balloon type="speech" who="#FB"> We're lost in the middle of th'
                                 desert! Give him a dollar! </cbml:balloon>
-                            <note type="panelDesc"> smiley getting a dollar from phoney for the new
-                                map while fone bone agrees </note>
+                            <note type="panelDesc"> Smiley getting a dollar from Phoney for the new
+                                map while Fone Bone agrees </note>
                         </cbml:panel>
 
                     </div>
                     <!-- page 6 -->
                     <div type="page" n="6">
+                        <note type="pageDesc">As they continue to argue, the Bone cousins hear a buzzing in the distance. </note>
                         <cbml:panel n="1">
                             <cbml:caption type="heading">
                                 <emph rendition="#b">Out From Boneville</emph>
@@ -434,8 +440,8 @@
                             <cbml:balloon type="speech" who="#SB"> It's worth a <hi rend="bold"
                                     >dollar!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> phoney bone realizing the new map was drawn by
-                                smilely bone </note>
+                            <note type="panelDesc"> Phoney Bone realizing the new map was drawn by
+                                Smiley bone </note>
                         </cbml:panel>
 
                         <cbml:panel n="3" characters="#PB #SB">
@@ -445,8 +451,8 @@
                             <cbml:balloon type="speech" who="#SB">
                                 <hi rend="bold">Cousins! Heads up! We got company!</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> Fone bone holding phoney bone back from trying
-                                to kill smilely bone </note>
+                            <note type="panelDesc"> Fone bone holding Phoney bone back from trying
+                                to kill Smiley bone </note>
                         </cbml:panel>
 
                         <cbml:panel n="4" characters="#PB #FB">
@@ -456,7 +462,7 @@
                             </cbml:balloon>
                             <cbml:balloon type="speech" who="#FB"> shhhh! Wait a minutes! </cbml:balloon>
                             <cbml:balloon type="speech" who="#FB"> You hear that? </cbml:balloon>
-                            <note type="panelDesc"> all three talking </note>
+                            <note type="panelDesc"> All three Bone cousins talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="5" characters="#PB #FB #SB">
@@ -464,7 +470,7 @@
                                 <hi rend="bold">Smiley!</hi> What's that noise </cbml:balloon>
                             <cbml:balloon type="speech" who="#PB"> Is it th' townspeople? </cbml:balloon>
                             <cbml:balloon type="speech" who="#SB"> Nope. No People... </cbml:balloon>
-                            <note type="panelDesc"> all three talking </note>
+                            <note type="panelDesc"> All three Bone cousins talking </note>
                         </cbml:panel>
 
                         <cbml:panel n="6" characters="#SB #Locusts">
@@ -473,13 +479,14 @@
                             <cbml:balloon type="speech" who="#Locusts">
                                 <hi ana="ono">ZZZZZZZ</hi>
                             </cbml:balloon>
-                            <note type="panelDesc"> the locusts are coming </note>
+                            <note type="panelDesc"> The locusts are coming </note>
                         </cbml:panel>
                     </div>
 
                 </div>
                 <!-- page 7 -->
                 <div type="page" n="7">
+                    <note type="pageDesc">A swarm of locusts are headed towards the Bone cousins, Fone Bone and Phone take off</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">The Map</emph>
@@ -493,8 +500,8 @@
                         <cbml:balloon type="speech" who="#PB">
                             <hi rend="bold" ana="ono">WHOOOAAAAAAAAAAH</hi>
                         </cbml:balloon>
-                        <note type="panelDesc"> FB and PB are running away from the swarm of
-                            locusts, SB is unfazed </note>
+                        <note type="panelDesc"> Fone Bone and Phoney Bone are running away from the swarm of
+                            locusts, Smiley Bone is unfazed </note>
                     </cbml:panel>
 
                     <cbml:panel n="3" characters="#FB #PB">
@@ -514,7 +521,7 @@
                         </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB">
                             <hi rend="bold">Phoney!</hi> Are you okay? </cbml:balloon>
-                        <note type="panelDesc"> FB jumps away, PB tumbles </note>
+                        <note type="panelDesc"> Fone Bone jumps away, Phoney Bone tumbles </note>
                     </cbml:panel>
 
                     <cbml:panel n="4" characters="#FB #PB">
@@ -524,16 +531,17 @@
                         <cbml:balloon type="speech" who="#FB">
                             <hi rend="bold" ana="ono">WAAAAAGH!</hi>
                         </cbml:balloon>
-                        <note type="panelDesc"> FB and PB are in the locusts swarms </note>
+                        <note type="panelDesc"> Fone Bone and Phoney Bone are in the locusts swarms </note>
                     </cbml:panel>
 
                     <cbml:panel n="5" characters="#FB #PB #SB">
-                        <note type="panelDesc"> close shot of locust swarm </note>
+                        <note type="panelDesc"> Slose shot of locust swarm </note>
                     </cbml:panel>
                 </div>
 
                 <!-- page 8 -->
                 <div type="page" n="8">
+                    <note type="pageDesc">Fone Bone is lost within the swarm of locusts, he then runs off a cliff. He falls off the cliff, and loses his map.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">Out From Boneville</emph>
@@ -546,66 +554,67 @@
                     </cbml:panel>
 
                     <cbml:panel n="2" characters="#FB">
-                        <note type="panelDesc"> FB is still within the swarm of locusts, his legs
+                        <note type="panelDesc"> Fone Bone is still within the swarm of locusts, his legs
                             are peaking out </note>
                     </cbml:panel>
 
                     <cbml:panel n="3" characters="#FB">
-                        <note type="panelDesc"> FB finds himself running off a cliff </note>
+                        <note type="panelDesc"> Fone Bone finds himself running off a cliff </note>
                     </cbml:panel>
 
                     <cbml:panel n="4" characters="#FB">
-                        <note type="panelDesc"> FB is falling, he lets go of the map </note>
+                        <note type="panelDesc"> Fone Bone is falling, he lets go of the map </note>
                     </cbml:panel>
 
                     <cbml:panel n="5" characters="#FB">
-                        <note type="panelDesc"> FB hits a part of the cliff </note>
+                        <note type="panelDesc"> Fone Bone hits a part of the cliff </note>
                     </cbml:panel>
 
                     <cbml:panel n="6" characters="#FB">
-                        <note type="panelDesc"> FB hits the ground made up of sand </note>
+                        <note type="panelDesc"> Fone Bone hits the ground made up of sand </note>
                     </cbml:panel>
                 </div>
 
                 <!-- page 9 -->
                 <div type="page" n="9">
+                    <note type="pageDesc">Fone Bone falls in sand, he’s the only one fallen off the cliff. He is left alone.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">The Map</emph>
                         </cbml:caption>
                     </cbml:panel>
                     <cbml:panel n="2" characters="#FB">
-                        <note type="panelDesc"> FB lands face up in the sand </note>
+                        <note type="panelDesc"> Fone Bone lands face up in the sand </note>
                     </cbml:panel>
 
                     <cbml:panel n="3" characters="#FB">
-                        <note type="panelDesc"> FB still in the sand, he looks up </note>
+                        <note type="panelDesc"> Fone Bone still in the sand, he looks up </note>
                     </cbml:panel>
 
                     <cbml:panel n="4" characters="#FB">
-                        <note type="panelDesc"> FB still in the sand, he looks around </note>
+                        <note type="panelDesc"> Fone Bone still in the sand, he looks around </note>
                     </cbml:panel>
 
                     <cbml:panel n="5" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Yeeee! I can’t believe I wasn’t just
                             killed! </cbml:balloon>
-                        <note type="panelDesc"> FB runs from his landing spot </note>
+                        <note type="panelDesc"> Fone Bone runs from his landing spot </note>
                     </cbml:panel>
 
                     <cbml:panel n="6" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Phoney! Smiley! Go back! Don’t come
                             this way! It’s a cliff! </cbml:balloon>
-                        <note type="panelDesc"> FB shouts up to SB and PB </note>
+                        <note type="panelDesc"> Fone Bone shouts up to Smiley Bone and Phoney Bone </note>
                     </cbml:panel>
 
                     <cbml:panel n="7" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> …maybe they’re already down here. </cbml:balloon>
-                        <note type="panelDesc"> FB is in a ravine </note>
+                        <note type="panelDesc"> Fone Bone is in a ravine </note>
                     </cbml:panel>
 
                     <cbml:panel n="8" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> PHONEY BONE! SMILEY! </cbml:balloon>
-                        <note type="panelDesc"> FB is in a ravine, he is calling out to PB and SB
+                        <note type="panelDesc"> Fone Bone is in a ravine, he is calling out to Phoney Bone and Smiley Bone
                         </note>
                     </cbml:panel>
 
@@ -613,18 +622,19 @@
                         <cbml:balloon type="speech" who="#FB"> HEY! </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB" rend="sqBubble"> Hey guys! I’m down in
                             this gulley! Can you hear me?!! </cbml:balloon>
-                        <note type="panelDesc"> FB is still calling out to PB and SB, a cave is near
+                        <note type="panelDesc"> Fone Bone is still calling out to Phoney Bone and Smiley Bone, a cave is near
                             him </note>
                     </cbml:panel>
 
                     <cbml:panel n="10" characters="#FB">
-                        <note type="panelDesc"> FB is looking around, a pair of large eyes open from
+                        <note type="panelDesc"> Fone Bone is looking around, a pair of large eyes open from
                             the cave </note>
                     </cbml:panel>
                 </div>
 
                 <!-- page 10 -->
                 <div type="page" n="10">
+                    <note type="pageDesc">Fone Bone is calling out for his cousins, in the background, a pair of mysterious eyes open from a cave. He starts to climb up the cliff.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">Out From Boneville</emph>
@@ -633,57 +643,58 @@
                     
                     <cbml:panel n="2" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">PHONEY–</hi> <hi ana="ono">*gasp*</hi> <hi rend="bold">Say!</hi> There’s that map! </cbml:balloon>
-                        <note type="panelDesc"> FB lays his eyes on the map </note>
+                        <note type="panelDesc"> Fone Bone lays his eyes on the map </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">Huh!</hi> I wonder if this really <hi rend="bold">is</hi> a map of that mountain range…maybe I better hang on to it! </cbml:balloon>
-                        <note type="panelDesc"> FB is scanning the map, the pair of eyes are looming behind him </note>
+                        <note type="panelDesc"> Fone Bone is scanning the map, the pair of eyes are looming behind him </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> I might need it to save Phoney Bone… </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> …again! </cbml:balloon>
-                        <note type="panelDesc"> FB is putting the map away grumply, the pair of eyes are staring at him </note>
+                        <note type="panelDesc"> Fone Bone is putting the map away grumply, the pair of eyes are staring at him </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Hmmf. </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> I’m always gettin’ him outta trouble! </cbml:balloon>
-                        <note type="panelDesc"> FB is getting ready to climb the cliff </note>
+                        <note type="panelDesc"> Fone Bone is getting ready to climb the cliff </note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Well, cousin or not…when we get back to Boneville, Phoney’s gonna have to face the music by <hi rend="bold">himself!</hi> </cbml:balloon>
-                        <note type="panelDesc"> FB is climbing up the cliff </note>
+                        <note type="panelDesc"> Fone Bone is climbing up the cliff </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> I’ve <hi rend="bold">had</hi> it! From now on, he can outrun angry <hi rend="bold">mobs</hi>, an’ fall off <hi rend="bold">cliffs</hi> without <hi rend="bold">my</hi> help! </cbml:balloon>
-                        <note type="panelDesc"> FB is still climbing up the cliff </note>
+                        <note type="panelDesc"> Fone Bone is still climbing up the cliff </note>
                     </cbml:panel>
                     
                     <cbml:panel n="8" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> What kind of a <hi rend="bold">patsy</hi> does he <hi rend="bold">take</hi> me for?! <hi rend="bold" ana="ono">*Urnf!</hi> </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> It’s always: “Fone Bone, you gotta <hi rend="bold">save</hi> me!” or: “Fone Bone, you gotta <hi rend="bold">help</hi> me!” </cbml:balloon>
-                        <note type="panelDesc"> FB is still climbing up the cliff </note>
+                        <note type="panelDesc"> Fone Bone is still climbing up the cliff </note>
                     </cbml:panel>
                     
                     <cbml:panel n="9" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Why, I oughta– </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">Hey!</hi> How’d I get so close to the <hi rend="bold">mountains?!</hi> </cbml:balloon>
-                        <note type="panelDesc"> FB makes it to the top of the cliff, he is near the mountain range </note>
+                        <note type="panelDesc"> Fone Bone makes it to the top of the cliff, he is near the mountain range </note>
                     </cbml:panel>
                     
                     <cbml:panel n="10" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Where is everybody? Where’s th’ <hi rend="bold">locusts?!</hi> </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB" rend="sqBubble"> <hi rend="bold">No way!</hi> I climbed up the <hi rend="bold">wrong side! Phoney! Help!! You gotta save me!!</hi> </cbml:balloon>
-                        <note type="panelDesc"> FB climbs up the cliff, only to see he climbed up the wrong side </note>
+                        <note type="panelDesc"> Fone Bone climbs up the cliff, only to see he climbed up the wrong side </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 11 -->
                 <div type="page" n="11">
+                    <note type="pageDesc">Fone Bone is at the top of the cliff, no one is in sight. He is stranded alone. He finds a cigarette butt, and begins to follow a trail of them.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">The Map</emph>
@@ -692,45 +703,45 @@
                     
                     <cbml:panel n="2" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Oh, my <hi rend="bold">gosh!</hi> They’re nowhere in sight! </cbml:balloon>
-                        <note type="panelDesc"> FB is scrambling around to find PB and SB </note>
+                        <note type="panelDesc"> Fone Bone is scrambling around to find Phoney Bone and Smiley Bone </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">Phoney!</hi> </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">Hey!</hi> </cbml:balloon>
-                        <note type="panelDesc"> FB is calling out for PB </note>
+                        <note type="panelDesc"> Fone Bone is calling out for Phoney Bone </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB">
-                        <note type="panelDesc"> FB standing in shock </note>
+                        <note type="panelDesc"> Fone Bone standing in shock </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB">
-                        <note type="panelDesc"> FB takes a pause </note>
+                        <note type="panelDesc"> Fone Bone takes a pause </note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold" ana="ono">!</hi> </cbml:balloon>
-                        <note type="panelDesc"> FB gasps, he sees something </note>
+                        <note type="panelDesc"> Fone Bone gasps, he sees something </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> A cigar butt! </cbml:balloon>
-                        <note type="panelDesc"> FB finds a cigarette butt </note>
+                        <note type="panelDesc"> Fone Bone finds a cigarette butt </note>
                     </cbml:panel>
                     
                     <cbml:panel n="8" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Another one! </cbml:balloon>
-                        <note type="panelDesc"> FB finds another cigarette butt nearby </note>
+                        <note type="panelDesc"> Fone Bone finds another cigarette butt nearby </note>
                     </cbml:panel>
                     
                     <cbml:panel n="9" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Jeez…I hope Smiley doesn’t run out of cigars before I catch up to him </cbml:balloon>
-                        <note type="panelDesc"> FB is following a trail of cigarette butts </note>
+                        <note type="panelDesc"> Fone Bone is following a trail of cigarette butts </note>
                     </cbml:panel>
                     
                     <cbml:panel n="10" characters="#FB">
-                        <note type="panelDesc"> FB walks out of panel frame </note>
+                        <note type="panelDesc"> Fone Bone walks out of panel frame </note>
                     </cbml:panel>
                     
                     <cbml:panel n="11" characters="#FB">
@@ -740,6 +751,7 @@
                 
                 <!-- page 12 -->
                 <div type="page" n="12">
+                    <note type="pageDesc">Fone Bone eventually walks into the mountain range. He’s been walking for some time, and falls asleep from exhaustion.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">Out From Boneville</emph>
@@ -747,43 +759,44 @@
                     </cbml:panel>
                     
                     <cbml:panel n="2" characters="#FB">
-                        <note type="panelDesc"> FB is hiking up a mountain, the sun is setting </note>
+                        <note type="panelDesc"> Fone Bone is hiking up a mountain, the sun is setting </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">HUH HUH HUH</hi> </cbml:balloon>
-                        <note type="panelDesc"> FB is panting from the hike </note>
+                        <note type="panelDesc"> Fone Bone is panting from the hike </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">Huff!</hi> </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> Where th’ heck <hi rend="bold">are</hi> those guys? We’re goin’ straight into th’ mountains </cbml:balloon>
-                        <note type="panelDesc"> FB is on the ground, clearly exhausted </note>
+                        <note type="panelDesc"> Fone Bone is on the ground, clearly exhausted </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> I hope I catch up to ‘em before it gets dark…. </cbml:balloon>
-                        <note type="panelDesc"> FB is leaning against a rock, reading the map </note>
+                        <note type="panelDesc"> Fone Bone is leaning against a rock, reading the map </note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> The <hi rend="bold">last</hi> thing I want to do is spend the night out here by myself! </cbml:balloon>
-                        <note type="panelDesc"> FB is leaning against a rock, reading the map </note>
+                        <note type="panelDesc"> Fone Bone is leaning against a rock, reading the map </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> …of course, after a day like <hi rend="bold">today</hi>, it’s hard to imagine that anything <hi rend="bold">worse</hi> could …. </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">YAWN!</hi> </cbml:balloon>
-                        <note type="panelDesc"> FB is yawning as he is leaning against a rock </note>
+                        <note type="panelDesc"> Fone Bone is yawning as he is leaning against a rock </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB">
-                        <note type="panelDesc"> FB is asleep, the day has turned to night and it is dark </note>
+                        <note type="panelDesc"> Fone Bone is asleep, the day has turned to night and it is dark </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 13 -->
                 <div type="page" n="13">
+                    <note type="pageDesc">Night falls, two rat creatures find Fone Bone fast asleep. They are looking for someone, and deduct Fone Bone isn’t that person. They plan to make Fone Bone their supper. The mysterious pair of eyes from earlier startles the rat creatures. It’s the Great Red Dragon, the rat creatures are scared off. </note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">The Map</emph>
@@ -798,13 +811,13 @@
                     <cbml:panel n="3" characters="#RC">
                         <cbml:balloon type="speech" who="#RC"> …is it him? Is it the one we seek? </cbml:balloon>
                         <cbml:balloon type="speech" who="#RC"> …I cannot tell...look for the star on its chest… </cbml:balloon>
-                        <note type="panelDesc"> Two rat creatures are looking at FB sleeping </note>
+                        <note type="panelDesc"> Two rat creatures are looking at Fone Bone sleeping </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#RC">
                         <cbml:balloon type="speech" who="#RC"> …no star… this isn’t the one…. </cbml:balloon>
                         <cbml:balloon type="speech" who="#RC"> …nol...it is not he…..very well….kill it….it will be our supper </cbml:balloon>
-                        <note type="panelDesc"> The rat creatures are standing over FB, one of them is holding his arm </note>
+                        <note type="panelDesc"> The rat creatures are standing over Fone Bone, one of them is holding his arm </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#RD #RC">
@@ -826,12 +839,13 @@
                     
                     <cbml:panel n="8" characters="#RC">
                         <cbml:balloon type="speech" who="#RC"> <hi rend="bold">AIEEEEEEEEE! THE GREAT RED DRAGON!!</hi> </cbml:balloon>
-                        <note type="panelDesc"> FB opens his eyes, the rat creatures blown out torch is left in front of him </note>
+                        <note type="panelDesc"> Fone Bone opens his eyes, the rat creatures blown out torch is left in front of him </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 14 -->
                 <div type="page" n="14">
+                    <note type="pageDesc">Fone Bone wakes up in pitch black, the Great Red Dragon asks for a light and Fone Bone strikes a match assuming it is Smiley Bone. Fone Bone is surprised by the Great Red Dragon and screams.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">Out From Boneville</emph>
@@ -844,29 +858,29 @@
                     
                     <cbml:panel n="3" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">Oog</hi>…I must’ve fallen asleep. Where am I? </cbml:balloon>
-                        <note type="panelDesc"> FB is speaking in the pitch black </note>
+                        <note type="panelDesc"> Fone Bone is speaking in the pitch black </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#RD #FB">
                         <cbml:balloon type="speech" who="#RD"> You awake? </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> Huh? Who’s there? </cbml:balloon>
-                        <note type="panelDesc"> The Red Dragon and FB are talking in the pitch black </note>
+                        <note type="panelDesc"> The Red Dragon and Fone Bone are talking in the pitch black </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#RD #FB">
                         <cbml:balloon type="speech" who="#RD"> You got a light? </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">Smiley?</hi> Is that <hi rend="bold">you?</hi> </cbml:balloon>
-                        <note type="panelDesc"> The Red Dragon and FB are talking in the pitch black </note>
+                        <note type="panelDesc"> The Red Dragon and Fone Bone are talking in the pitch black </note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Oh, <hi rend="bold">boy</hi>, am I glad to see <hi rend="bold">you</hi>! Hold on, I’ve got a match in my bag here! </cbml:balloon>
-                        <note type="panelDesc"> FB is rustling to get his lighter from his bag </note>
+                        <note type="panelDesc"> Fone Bone is rustling to get his lighter from his bag </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#RD #FB">
                         <cbml:balloon type="speech" who="#FB"> <hi ana="ono">Skritch</hi> </cbml:balloon>
-                        <note type="panelDesc"> Fonebone lights a match </note>
+                        <note type="panelDesc"> Fone Bone lights a match </note>
                     </cbml:panel>
                     
                     <cbml:panel n="8" characters="#RD #FB">
@@ -879,12 +893,13 @@
                     
                     <cbml:panel n="10" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold" ana="ono">AAAH!</hi> </cbml:balloon>
-                        <note type="panelDesc"> Fonebone screams after seeing the Red Dragon </note>
+                        <note type="panelDesc"> Fone Bone screams after seeing the Red Dragon </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 15 -->
                 <div type="page" n="15">
+                    <note type="pageDesc">The Great Red Dragon thanks Fone Bone and disappears by the time Fone Bone manages to strike another match for some light. Daylight comes around, Fone Bone finds another map and continues his journey. </note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">The Map</emph>
@@ -894,44 +909,45 @@
                     <cbml:panel n="2" characters="#RD #FB">
                         <cbml:balloon type="speech" who="#RD"> Thanks for th' light. </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> Don't mention it! </cbml:balloon>
-                        <note type="panelDesc"> red dragon thanks fonebone for the light </note>
+                        <note type="panelDesc"> The Great Red dragon thanks Fone Bone for the light </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#RD #FB">
-                        <note type="panelDesc"> they sit in the complete pitch black again </note>
+                        <note type="panelDesc"> They sit in the complete pitch black again </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi ana="ono">Skritch</hi> </cbml:balloon>
-                        <note type="panelDesc"> fonebone lights another match </note>
+                        <note type="panelDesc"> Fone Bone lights another match </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Hello? </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> Hello? </cbml:balloon>
-                        <note type="panelDesc"> fonebone is looking for the red dragon </note>
+                        <note type="panelDesc"> Fone Bone is looking for the Great Red Dragon </note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB">
                         <cbml:balloon type="speech" who="#FB" rend="whispBubble"> Oh, man! I gotta quit goin' to sleep on an <hi rend="bold">empty stomach!</hi> </cbml:balloon>
-                        <note type="panelDesc"> fonebone is complaining about being hungry when going to sleep </note>
+                        <note type="panelDesc"> Fone Bone is complaining about being hungry when going to sleep </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB">
-                        <note type="panelDesc"> fonebone is wrapped in a blanket </note>
+                        <note type="panelDesc"> Fone Bone is wrapped in a blanket </note>
                     </cbml:panel>
                     
                     <cbml:panel n="8" characters="#FB">
-                        <note type="panelDesc"> fonebone is packing up and sees a map on the ground </note>
+                        <note type="panelDesc"> Fone Bone is packing up and sees a map on the ground </note>
                     </cbml:panel>
                     
                     <cbml:panel n="9" characters="#FB">
-                        <note type="panelDesc"> fonebone is walking away </note>
+                        <note type="panelDesc"> Fone Bone is walking away </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 16 -->
                 <div type="page" n="16">
+                    <note type="pageDesc">Fone Bone continues to climb through the mountains. </note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">Out From Boneville</emph>
@@ -939,36 +955,37 @@
                     </cbml:panel>
                     
                     <cbml:panel n="2" characters="#FB">
-                        <note type="panelDesc"> fonebone climbing rocks </note>
+                        <note type="panelDesc"> Fone Bone climbing rocks </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB">
-                        <note type="panelDesc"> fonebone looking up rocks with map in hand </note>
+                        <note type="panelDesc"> Fone Bone looking up rocks with map in hand </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB">
-                        <note type="panelDesc"> fonebone jumped from cliff to cliff </note>
+                        <note type="panelDesc"> Fone Bone jumped from cliff to cliff </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB">
-                        <note type="panelDesc"> fonebone sits under rock to rest </note>
+                        <note type="panelDesc"> Fone Bone sits under rock to rest </note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB">
-                        <note type="panelDesc"> fonebone looks down a tall cliff </note>
+                        <note type="panelDesc"> Fone Bone looks down a tall cliff </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB">
-                        <note type="panelDesc"> fonebone walking on the ground surounded by boulders </note>
+                        <note type="panelDesc"> Fone Bone walking on the ground surounded by boulders </note>
                     </cbml:panel>
                     
                     <cbml:panel n="8" characters="#FB">
-                        <note type="panelDesc"> fonebone walking on the ground surounded by boulders </note>
+                        <note type="panelDesc"> Fone Bone walking on the ground surounded by boulders </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 17 -->
                 <div type="page" n="17">
+                    <note type="pageDesc">Fone Bone is frustrated that the map has not taken him to the waterfall that it shows it would.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">The Map</emph>
@@ -977,41 +994,42 @@
                     
                     <cbml:panel n="2" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Oh, <hi rend="bold">man!</hi> this ain't gonna <hi rend="bold">cut it</hi>! </cbml:balloon>
-                        <note type="panelDesc"> fonebone was struggling </note>
+                        <note type="panelDesc"> Fone Bone was struggling </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> I actually thought this map would take me through th' mountains to this waterfall on here... </cbml:balloon>
-                        <note type="panelDesc"> fonebone was thinking the map would be helpful </note>
+                        <note type="panelDesc"> Fone Bone was thinking the map would be helpful </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> ...but if this thing were <hi rend="bold">real</hi>, I would've come to th' pass by <hi rend="bold">now! Errr!</hi> I'm so <hi rend="bold">stupid</hi>! I bet this map was just one of smiley's <hi rend="bold">pranks</hi> - - and I <hi rend="bold">fell</hi> for it! </cbml:balloon>
-                        <note type="panelDesc"> fonebone thinking the map is just smileys prank and he fell for it </note>
+                        <note type="panelDesc"> Fone Bone thinking the map is just smileys prank and he fell for it </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> And to top it <hi rend="bold">off</hi>, I haven't seen any more <hi rend="bold">cigar butts</hi> all day... <hi rend="bold">How</hi> do I get myself <hi rend="bold">into</hi> these things? </cbml:balloon>
-                        <note type="panelDesc"> fonebone struggling to keep walking and being down on himself </note>
+                        <note type="panelDesc"> Fone Bone struggling to keep walking and being down on himself </note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Oh, well... I'll find those guys <hi rend="bold">sooner</hi> or later... If I don't die of thirst... </cbml:balloon>
-                        <note type="panelDesc"> fonebone dying of thrist still searching for his cousins </note>
+                        <note type="panelDesc"> Fone Bone dying of thirst still searching for his cousins </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Until <hi rend="bold">then</hi>, I just gotta <hi rend="bold">keep movin'! Keep...</hi> </cbml:balloon>
-                        <note type="panelDesc"> fonebone struggling to keep walking </note>
+                        <note type="panelDesc"> Fone Bone struggling to keep walking </note>
                     </cbml:panel>
                     
                     <cbml:panel n="8" characters="#FB">
-                        <note type="panelDesc"> fonebone looking out over cliff </note>
+                        <note type="panelDesc"> Fone Bone looking out over cliff </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 18 -->
                 <div type="page" n="18">
+                    <note type="pageDesc">Fone Bone then comes to a clearing, revealing the waterfall. He’s excited that he found a source of water.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">Out From Boneville</emph>
@@ -1019,33 +1037,34 @@
                     </cbml:panel>
                     
                     <cbml:panel n="2" characters="#FB">
-                        <note type="panelDesc"> fonebone looks over a valley of greenery from the cliff </note>
+                        <note type="panelDesc"> Fone Bone looks over a valley of greenery from the cliff </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Cool. </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> I made it! </cbml:balloon>
-                        <note type="panelDesc"> fonebone is happy to have made it through the cliffs to the greenery </note>
+                        <note type="panelDesc"> Fone Bone is happy to have made it through the cliffs to the greenery </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> That stupid map was <hi rend="bold">right</hi>! Yessiree, <hi rend="bold">Bob!</hi> There's water on th' menu <hi rend="bold">tonight!</hi> </cbml:balloon>
-                        <note type="panelDesc"> fonebone heading down the cliff to the waterfall dreaming of having water for dinner </note>
+                        <note type="panelDesc"> Fone Bone heading down the cliff to the waterfall dreaming of having water for dinner </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> I could <hi rend="bold">kiss</hi> smiley bone for finding that map! </cbml:balloon>
-                        <note type="panelDesc"> fonebone is happy with smiley finding the map </note>
+                        <note type="panelDesc"> Fone Bone is happy with Smiley finding the map </note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> I might even kiss <hi rend="bold">phoney</hi> right before I strangle him! </cbml:balloon>
-                        <note type="panelDesc"> fonebone is happy but could still kill phoney </note>
+                        <note type="panelDesc"> Fone Bone is happy but could still kill Phoney </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 19 -->
                 <div type="page" n="19">
+                    <note type="pageDesc">Fone Bone finds another cigarette butt on the ground, before he steps on it, it is revealed that the cigarette butt is a tiny bug named Ted Ted. Ted Ted exasperated with Fone Bone almost stepping on him, he calls his big brother, a giant bug over. Ted Ted’s older brother appears, and Fone Bone implores that he meant no harm. He then asks if they know where Boneville is from the forest, but the two brothers have never heard of it.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">The Map</emph>
@@ -1055,54 +1074,55 @@
                     <cbml:panel n="2" characters="#FB #TT">
                         <cbml:balloon type="speech" who="#FB"> And look! one of smiley's <hi rend="bold">cigar stubs!</hi> </cbml:balloon>
                         <cbml:balloon type="speech" who="#TT" rend="sqBubble"> <hi rend="bold">Hey! Watch it!</hi> you almost stepped on me! </cbml:balloon>
-                        <note type="panelDesc"> fonebone sees another cigar butt and almost steps on tedted </note>
+                        <note type="panelDesc"> Fone Bone sees another cigar butt and almost steps on Ted Ted </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB #TT">
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">Whoops!</hi> hello! what are <hi rend="bold">you</hi> supposed to be? </cbml:balloon>
                         <cbml:balloon type="speech" who="#TT"> I'm ted! I'm a bug! </cbml:balloon>
-                        <note type="panelDesc"> fonebone and tedted have their first conversation </note>
+                        <note type="panelDesc"> Fone Bone and Ted Ted have their first conversation </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB #TT">
                         <cbml:balloon type="speech" who="#FB"> You look more like a <hi rend="bold">leaf</hi>! </cbml:balloon>
                         <cbml:balloon type="speech" who="#TT"> A <hi rend="bold">leaf</hi>?! that's a <hi rend="bold">insult</hi>! where's my big brother? </cbml:balloon>
-                        <note type="panelDesc"> fonebone thinks tedted looks more like a leaf than a bug </note>
+                        <note type="panelDesc"> Fone Bone thinks Ted Ted looks more like a leaf than a bug </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB #TT">
                         <cbml:balloon type="speech" who="#FB"> Hey, hold on! I didn't mean any harm! besides, what could <hi rend="bold">your</hi> big brother do to me? </cbml:balloon>
-                        <note type="panelDesc"> fonebone is mocking tedted's older brother about what could he do to him </note>
+                        <note type="panelDesc"> Fone Bone is mocking Ted Ted's older brother about what could he do to him </note>
                     </cbml:panel>
                     <!-- add TOB to character and who-->
                     <cbml:panel n="6" characters="#FB #TOB #TT">
                         <cbml:balloon type="speech" who="#FB"> whoa. </cbml:balloon>
                         <cbml:balloon type="speech" who="#TOB"> is you pickin' on ted? </cbml:balloon>
-                        <note type="panelDesc"> tedted's older brother comes in sizing up to fonebone </note>
+                        <note type="panelDesc"> Ted Ted's older brother comes in sizing up to Fone Bone </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB #TOB #TT">
                         <cbml:balloon type="speech" who="#FB"> I - - just said he looks like a leaf! </cbml:balloon>
                         <cbml:balloon type="speech" who="#TOB"> what are you? a trouble-maker we don't need your kind in our valley! </cbml:balloon>
                         <cbml:balloon type="speech" who="#TT"> I guess he didn't mean no harm, big brother! you don't has to hit him if you don't want! </cbml:balloon>
-                        <note type="panelDesc"> tedted's older brother is threating fonebone and tedted is trying to talk him down </note>
+                        <note type="panelDesc"> Ted Ted's older brother is threatening Fone Bone and Ted Ted is trying to talk him down </note>
                     </cbml:panel>
                     
                     <cbml:panel n="8" characters="#FB #TOB #TT">
                         <cbml:balloon type="speech" who="#FB"> listen too him! listen too him! </cbml:balloon>
                         <cbml:balloon type="speech" who="#TOB"> well, okay, ted, if you say so.... </cbml:balloon>
-                        <note type="panelDesc"> fonebone begs tedted's older brother to listen to tedted and not hit him </note>
+                        <note type="panelDesc"> Fone Bone begs Ted ted's older brother to listen to Ted Ted and not hit him </note>
                     </cbml:panel>
                     
                     <cbml:panel n="9" characters="#FB #TOB">
                         <cbml:balloon type="speech" who="#FB"> I'm not tryin' to casue trouble! I'm looking for my cousins! we got seperated an' now I'm lost! you wouldn't know how to get to <hi rend="bold">boneville</hi> from here, would ya? </cbml:balloon>
                         <cbml:balloon type="speech" who="#TOB"> boneville? never heard of it... </cbml:balloon>
-                        <note type="panelDesc"> fonebone tells tedted's older brother about him looking for his cousins and that he is lost </note>
+                        <note type="panelDesc"> Fone Bone tells Ted Ted's older brother about him looking for his cousins and that he is lost </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 20 -->
                 <div type="page" n="20">
+                    <note type="pageDesc">Ted Ted’s older brother warns Fone Bone that if he wants to leave the forest, he needs to find his way home before winter hits. Ted Ted then suggests Fone Bone to meet Thorn, who apparently is all-knowing. </note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">The Map</emph>
@@ -1111,42 +1131,43 @@
                     
                     <cbml:panel n="2" characters="#FB #TOB">
                         <cbml:balloon type="speech" who="#TOB"> But you better find it - - <hi rend="bold">fast!</hi> it's autumn now, an' winter strikes <hi rend="bold">quick</hi> in these parts... an' when it does <hi rend="bold">nobody</hi> can get through those mountains... ...in <hi rend="bold">or</hi> out! </cbml:balloon>
-                        <note type="panelDesc"> tedted's older brother is lecturing fonebone about winter coming and he better hurry </note>
+                        <note type="panelDesc"> Ted Ted's older brother is lecturing Fone Bone about winter coming and he better hurry </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB #TOB">
                         <cbml:balloon type="speech" who="#TOB"> So I suggest you make your visit here a <hi rend="bold">short</hi> one, or you'll be struck for th' winter. an' I don't think you wanna <hi rend="bold">do</hi> that! </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> No, definitely not. </cbml:balloon>
-                        <note type="panelDesc"> tedted's older brother is lecturing fonebone about winter coming and he better hurry </note>
+                        <note type="panelDesc"> Ted Ted's older brother is lecturing Fone Bone about winter coming and he better hurry </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB #TOB">
                         <cbml:balloon type="speech" who="#TOB"> Good. I'll let ya go for <hi rend="bold">now</hi>, since ted seems to like ya okay... but don't ferget! <hi rend="bold">No Dawdlin'!</hi> </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> Thank you for not hitting me. </cbml:balloon>
-                        <note type="panelDesc"> tedted's older brother decides to not hit fonebone </note>
+                        <note type="panelDesc"> Ted Ted's older brother decides to not harm Fone Bone </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB #TT">
                         <cbml:balloon type="speech" who="#TT"> Don't worry 'bout him... He's actual a real nice guy! </cbml:balloon>
                         <cbml:balloon type="speech" who="#TT"> <hi rend="bold">Well</hi>... now we gotta figger out what ta <hi rend="bold">do</hi> with ya... say! I know! I'll take ya to see thorn! C'mon! what's yer <hi rend="bold">name</hi>, mister! </cbml:balloon>
-                        <note type="panelDesc"> tedted is talking about his brother being a nice guy and asking what fonebone's name is </note>
+                        <note type="panelDesc"> Ted Ted is talking about his brother being a nice guy and asking what Fone Bone's name is </note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB #TT">
                         <cbml:balloon type="speech" who="#FB"> Fone Bone. So who's this thorn? He's not another <hi rend="bold">big bug</hi>, is he? </cbml:balloon>
                         <cbml:balloon type="speech" who="#TT"> Ho, Ho! <hi rend="bold">No!</hi> thorn knows jes' about ever'thin' in th' <hi rend="bold">whole world!</hi> </cbml:balloon>
-                        <note type="panelDesc"> fonebone and tedted are talking about thorn </note>
+                        <note type="panelDesc"> Fone Bone and Ted Ted are talking about Thorn </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB #TT">
                         <cbml:balloon type="speech" who="#TT"> But, listen, bone! Big brother was right about winter! she hits <hi rend="bold">fast!</hi> 'n' if you wants ta git home you gotta do it before she <hi rend="bold">snows!</hi> </cbml:balloon>
                         <cbml:balloon type="speech" who="#TT"> Don't worry! I'm just gonna fine my cousins, an' then I'm <hi rend="bold">outta here!</hi> </cbml:balloon>
-                        <note type="panelDesc"> tedted talks about the winter and fonebone says he just needs to find his cousins and he's good </note>
+                        <note type="panelDesc"> Ted Ted talks about the winter and Fone Bone says he just needs to find his cousins and he's good </note>
                     </cbml:panel>
                 </div>
 
                 <!-- page 21 -->
                 <div type="page" n="21">
+                    <note type="pageDesc">Fone Bone then catches the attention of two rat creatures who want to turn Fone Bone into their supper. The rat creatures ask Fone Bone to join them in the bushes, but Fone Bone asks if they can talk in the open space of the forest. Ted Ted then leaves Fone Bone behind to fend for himself with the rat creatures.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">The Map</emph>
@@ -1159,7 +1180,7 @@
                         <cbml:balloon type="speech" who="#TT"> We can stop by th’ <hi rend="bold">Barrelhaven!</hi> They
                             brews th’ best stuff aroun’! </cbml:balloon>
                         <cbml:balloon type="speech" who="#RC"> Eh? </cbml:balloon>
-                        <note type="panelDesc"> all three talking </note>
+                        <note type="panelDesc"> Fone Bone and Ted Ted are talking, a rat creature notices </note>
                     </cbml:panel>
 
                     <cbml:panel n="3" characters=" #FB #TT #RC">
@@ -1196,6 +1217,7 @@
                 
                 <!-- page 22 -->
                 <div type="page" n="22">
+                    <note type="pageDesc">One of the rat creatures grabs him and asks the other rat creature to start a fire. The second rat creature refuses since the first rat creature called it fat earlier. The rat creatures start arguing, the first rat creature releases Fone Bom and asks him to return in half an hour so they can eat him then. Fone Bone then escapes.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">Out From Boneville</emph>
@@ -1204,56 +1226,57 @@
                     
                     <cbml:panel n="2" characters="#FB #RC">
                         <cbml:balloon type="speech" who="#FB"> Ted! Wait for me! </cbml:balloon>
-                        <note type="panelDesc"> fonebone tries to run away from the rat creature </note>
+                        <note type="panelDesc"> Fone Bone tries to run away from the rat creature </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB #RC">
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> well, well... look who's joined us for supper... go start the cooking fire!! </cbml:balloon>
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> no. you called me fat. </cbml:balloon>
-                        <note type="panelDesc"> fonebone is just being held by a rat creature while the two rat creatures argue </note>
+                        <note type="panelDesc"> Fone Bone is just being held by a rat creature while the two rat creatures argue </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB #RC">
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> <hi rend="bold">No?!! What do you mean no?!!</hi> </cbml:balloon>
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> and it's not the first time you've done it, either... </cbml:balloon>
-                        <note type="panelDesc"> the rat creatures argue as fonebone watches </note>
+                        <note type="panelDesc"> The rat creatures argue as Fone Bone watches </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB #RC">
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> comrade... be reasonable! I wasn't thinking... I was trying ot ctach our dinner... this isn't the time -- <hi ana="ono">*sigh*</hi> </cbml:balloon>
-                        <note type="panelDesc"> the one rat creature is trying to apologize to the other for call them fat</note>
+                        <note type="panelDesc"> The one rat creature is trying to apologize to the other for call them fat</note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB #RC">
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> i take it back.... you're not fat. </cbml:balloon>
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> too late! </cbml:balloon>
-                        <note type="panelDesc"> rat creature is trying to apologize to the other for call them fat </note>
+                        <note type="panelDesc"> Rat creature is trying to apologize to the other for call them fat </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB #RC">
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> please, comrade! I just want to chop him up for the stew! </cbml:balloon>
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> And that's another thing! I'm tired of stew! I want to put him a crust and bake a light fluffy quiche! </cbml:balloon>
-                        <note type="panelDesc"> rat creatures talk about the way to eat fonebone </note>
+                        <note type="panelDesc"> Rat creatures talk about the way to eat Fone Bone </note>
                     </cbml:panel>
                     
                     <cbml:panel n="8" characters="#FB #RC">
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> <hi rend="bold">Quiche?!</hi> what kind of food is <hi rend="bold">that</hi> for a monster to eat?!...... listen, do you think tou could come back in half and hour? we'll have this straightened out by then! </cbml:balloon>
-                        <note type="panelDesc"> rat creatures ask fonebone if he will come back after they decide how to cook him </note>
+                        <note type="panelDesc"> Rat creatures ask Fone Bone if he will come back after they decide how to cook him </note>
                     </cbml:panel>
                     
                     <cbml:panel n="9" characters="#FB #RC">
-                        <note type="panelDesc"> fonebone runs away </note>
+                        <note type="panelDesc"> Fone Bone runs away </note>
                     </cbml:panel>
                     
                     <cbml:panel n="10" characters="#FB #RC">
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> why didn't you stop me? </cbml:balloon>
                         <cbml:balloon type="speech" who="#RC" rend="sqBubble"> why <hi rend="bold">should</hi> I? <hi rend="bold">you're</hi> so <hi rend="bold">smart!</hi> </cbml:balloon>
-                        <note type="panelDesc"> rat creatures argue </note>
+                        <note type="panelDesc"> The rat creatures argue </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 23 -->
                 <div type="page" n="23">
+                    <note type="pageDesc">Fone Bone then runs to find Ted Ted, but finds water instead. He drinks the water and realises he needs to plan his journey back to Boneville soon because of the soon to be winter weather.</note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">The Map</emph>
@@ -1262,48 +1285,49 @@
                     
                     <cbml:panel n="2" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> Ted! </cbml:balloon>
-                        <note type="panelDesc"> fonebone is running through the woods looking for tedted </note>
+                        <note type="panelDesc"> Fone Bone is running through the woods looking for Ted Ted </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> c'mon, ted! where <hi rend="bold">are</hi> you? you gotta take me to see thorn! </cbml:balloon>
-                        <note type="panelDesc"> fonebone looking for tedted </note>
+                        <note type="panelDesc"> Fone Bone looking for Ted Ted </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> - - I'm sorry I called you a <hi rend="bold">leaf!</hi> </cbml:balloon>
-                        <note type="panelDesc"> fonebone looking for tedted </note>
+                        <note type="panelDesc"> Fone Bone looking for Ted Ted </note>
                     </cbml:panel>
                     
                     <cbml:panel n="5" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi rend="bold">Whooooop!</hi> water! I hear <hi rend="bold">water!</hi> </cbml:balloon>
-                        <note type="panelDesc"> fonebone hear water </note>
+                        <note type="panelDesc"> Fone Bone hear water </note>
                     </cbml:panel>
                     
                     <cbml:panel n="6" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> water! </cbml:balloon>
                         <cbml:balloon type="speech" who="#FB"> water! water! </cbml:balloon>
-                        <note type="panelDesc"> fonebone finds water </note>
+                        <note type="panelDesc"> Fone Bone finds water </note>
                     </cbml:panel>
                     
                     <cbml:panel n="7" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> water! <hi ana="ono">mmmm</hi> <hi rend="bold">water!</hi> water! <hi ana="ono">mmmm</hi> water! water! <hi ana="ono">mmmmmm mm mm</hi> oh, <hi rend="bold">man!</hi> </cbml:balloon>
-                        <note type="panelDesc"> fonebone gets a drink </note>
+                        <note type="panelDesc"> Fone Bone gets a drink of water</note>
                     </cbml:panel>
                     
                     <cbml:panel n="8" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> what am I gonna <hi rend="bold">do?</hi> what if I <hi rend="bold">can't</hi> find my cousins before it <hi rend="bold">snows?</hi> we could be <hi rend="bold">trapped</hi> here for th' whole <hi rend="bold">winter!</hi> </cbml:balloon>
-                        <note type="panelDesc"> fonebone is worried about not finding his cousins before it snows while laying against a tree </note>
+                        <note type="panelDesc"> Fone Bone is worried about not finding his cousins before it snows while laying against a tree </note>
                     </cbml:panel>
                     
                     <cbml:panel n="9" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> I <hi rend="bold">gotta</hi> get outta here! this forest is too <hi rend="bold">weird</hi> for me! <hi ana="ono">*rummmble*</hi> </cbml:balloon>
-                        <note type="panelDesc"> fonebone talks about getting out of the forest when his stomach rumbles </note>
+                        <note type="panelDesc"> Fone Bone talks about getting out of the forest when his stomach rumbles </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 24 -->
                 <div type="page" n="24">
+                    <note type="pageDesc">Suddenly, a layer of snow falls on him. It is now winter. </note>
                     <cbml:panel n="1">
                         <cbml:caption type="heading">
                             <emph rendition="#b">Out From Boneville</emph>
@@ -1311,31 +1335,33 @@
                     </cbml:panel>
                     
                     <cbml:panel n="2" characters="#FB">
-                        <note type="panelDesc"> fonebone looks at the snow hovering over him </note>
+                        <note type="panelDesc"> Fone Bone looks at the snow hovering over him </note>
                     </cbml:panel>
                     
                     <cbml:panel n="3" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> <hi ana="ono">Whump!</hi>  </cbml:balloon>
-                        <note type="panelDesc"> the snow falls on fonebone </note>
+                        <note type="panelDesc"> The snow falls on Fone Bone </note>
                     </cbml:panel>
                     
                     <cbml:panel n="4" characters="#FB">
                         <cbml:balloon type="speech" who="#FB"> case in point. </cbml:balloon>
-                        <note type="panelDesc"> the snow falls on fonebone </note>
+                        <note type="panelDesc"> The snow falls on Fone Bone </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 25 -->
                 <div type="page" n="25">
+                    <note type="pageDesc">Fone Bone is carrying a large stone.</note>
                    <cbml:panel n="1" characters="#FB">
-                        <note type="panelDesc"> fonebone gathers stones and supplies to build shelter </note>
+                       <note type="panelDesc"> Fone Bone gathers stones and supplies to build shelter </note>
                     </cbml:panel>
                 </div>
                 
                 <!-- page 26 -->
                 <div type="page" n="26">
+                    <note type="pageDesc">Fone Bone is trading with two woodland creatures, behind him is his hut.</note>
                     <cbml:panel n="1" characters="#FB">
-                        <note type="panelDesc"> fonebone has a fire and has a picnic some creatures </note>
+                        <note type="panelDesc"> Fone Bone has a fire and is trading with creatures </note>
                     </cbml:panel>
                 </div>
 
